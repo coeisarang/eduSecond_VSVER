@@ -9,9 +9,14 @@
       align-items: center;
       padding: 20px;
       background-color: #fff;
-      border-bottom: 1px solid #ddd;
-      min-width: 1000px;
+      width: 1500px;               /* 고정 너비 설정 */
+      margin: 0 auto; 
+      gap: 80px;             /* 수평 가운데 정렬 */
     }
+    header{
+      background-color: white;
+    }
+
 
     .logo {
       display: flex;
@@ -47,12 +52,14 @@
 
     .auth-links {
       display: flex;
-      gap: 10px;
     }
 
     .auth-links a {
       text-decoration: none;
       color: #000000;
+      padding: 30px;
+      font-size: 18px;
+      font-weight: bold;
     }
 
     /* Dropdown menu for smaller screens */
